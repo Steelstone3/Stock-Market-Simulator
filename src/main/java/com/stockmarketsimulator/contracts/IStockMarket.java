@@ -9,5 +9,6 @@ public interface IStockMarket {
             new Stock(700),
             new Stock(100)};
 
-    void simulateStockMarket(IStockMarketService stockMarketService);
+    void simulateStockMarket(IStockMarketService stockMarketService,
+                             IStockMarketController stockMarketController);
 }
